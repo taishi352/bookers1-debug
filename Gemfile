@@ -35,6 +35,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 group :production do
   #for heroku
+  gem 'mysql2'
 end
 
 group :development, :test do
